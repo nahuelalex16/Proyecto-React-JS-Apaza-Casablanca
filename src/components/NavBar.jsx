@@ -11,6 +11,8 @@ import {
   MenuOptionGroup,
   MenuItemOption,
 } from "@chakra-ui/react"
+import { ChevronDownIcon } from '@chakra-ui/icons'
+
 
 const NavBar = () => {
   return (
@@ -29,7 +31,7 @@ const NavBar = () => {
           </ButtonGroup>
 
           <Menu>
-            <MenuButton as={Button}>Categorias</MenuButton>
+            <MenuButton as={Button} rightIcon={<ChevronDownIcon/>}>Categorias</MenuButton>
             <MenuList>
               <MenuItem>Categoria 1</MenuItem>
               <MenuItem>Categoria 2</MenuItem>
