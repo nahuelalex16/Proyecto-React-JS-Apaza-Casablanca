@@ -15,6 +15,7 @@ const ItemList = ({productos}) => {
                     precio={prod.price}
                     img={prod.image}
                     categoria={prod.category}
+                    stock={prod.count}
                     />
           ))}
           </Flex>

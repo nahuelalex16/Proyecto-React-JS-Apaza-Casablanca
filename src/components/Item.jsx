@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardBody, CardFooter, Image, Stack, Heading, Text, Divider, ButtonGroup, Button, Badge, WrapItem } from '@chakra-ui/react'
+import { Card, CardBody, CardFooter, Image, Stack, Heading, Text, Divider, ButtonGroup, Button, Badge, WrapItem, Tag } from '@chakra-ui/react'
 
 const Item = ({id, nombre, img, precio, categoria}) => {
   return (
@@ -12,15 +12,17 @@ const Item = ({id, nombre, img, precio, categoria}) => {
                         src={img}
                         alt={nombre}
                         borderRadius='md'
-                        maxH='20rem'
+                        maxH='30vh'
+                        minW='15rem'
                         />
-                        <Stack mt='6' spacing='3'>
+                        <Stack mt='6' spacing='1'>
                             <Heading size='md'>{nombre}</Heading>
                             <Text color='blue.600' fontSize='2xl'>
                                 ${precio}
                             </Text>
+
                         </Stack>
-                        <Badge>Categoria: {categoria}</Badge>
+                        <Tag>Categoria: {categoria}</Tag>
                     </CardBody>
 
                     <Divider />
