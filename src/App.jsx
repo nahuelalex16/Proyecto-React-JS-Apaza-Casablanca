@@ -9,7 +9,7 @@ const App = () => {
     <>
     <ChakraProvider>
       <NavBar/>
-      <ItemListContainer greeting = {"Bienvenidos a mi tienda virtual"}/>
+      <ItemListContainer/>
     </ChakraProvider>
     </>
   )

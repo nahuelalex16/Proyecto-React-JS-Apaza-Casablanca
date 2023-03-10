@@ -9,8 +9,6 @@ const CartWidget = () => {
         <span>
           <Tag>5</Tag>
         </span>
-        
-        
     </div>
   )
 }

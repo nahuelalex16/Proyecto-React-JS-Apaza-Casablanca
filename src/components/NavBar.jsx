@@ -23,8 +23,7 @@ const NavBar = () => {
           <Box p='2'>
             <Heading fontSize='xl' fontWeight='bold' color='#2874A6'>My Ecommerce</Heading>
           </Box>
-          <Spacer />
-          <CartWidget/>
+          <Spacer/>
           <ButtonGroup gap='2'>
             <Button color='#5DADE2'>Contacto</Button>
             <Button color='#5DADE2'>Catalogo</Button>            
@@ -38,6 +37,11 @@ const NavBar = () => {
               <MenuItem>Categoria 3</MenuItem>
             </MenuList>
           </Menu>
+
+          <Box m='1'>
+            <CartWidget/>
+          </Box>
+
 
         </Flex>
         
